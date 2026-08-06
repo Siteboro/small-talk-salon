@@ -77,8 +77,16 @@ export default function HomePage() {
 
       <header className="site-header" aria-label="Primary navigation">
         <a className="brand" href="#top" aria-label="Small Talk Salon home">
-          <span className="brand-mark">ST</span>
-          <span className="brand-name">Small Talk Salon</span>
+          <Image
+            className="brand-logo"
+            src={`${imageRoot}/small-talk-salon-official-logo.jpg`}
+            alt=""
+            width={320}
+            height={150}
+            priority
+            sizes="140px"
+          />
+          <span className="brand-name">Small Talk Salon + Boutique</span>
         </a>
         <nav className="desktop-nav" aria-label="Main links">
           <a href="#story">Our salon</a>
