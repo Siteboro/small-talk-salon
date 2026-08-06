@@ -1431,6 +1431,7 @@ body.menu-open .site-header {
   position: relative;
   height: 58px;
   overflow: hidden;
+  background: transparent !important;
 }
 
 .brand-logo {
@@ -1440,6 +1441,7 @@ body.menu-open .site-header {
   object-fit: contain;
   mix-blend-mode: normal;
   filter: none;
+  background: transparent !important;
   transform: translateZ(0);
 }
 

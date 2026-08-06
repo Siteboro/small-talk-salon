@@ -79,11 +79,12 @@ export default function HomePage() {
         <a className="brand" href="#top" aria-label="Small Talk Salon home">
           <Image
             className="brand-logo"
-            src={`${imageRoot}/small-talk-salon-official-logo-transparent.png`}
+            src={`${imageRoot}/small-talk-logo-clean-v2.png`}
             alt=""
             width={320}
             height={150}
             priority
+            unoptimized
             sizes="140px"
           />
           <span className="brand-name">Small Talk Salon + Boutique</span>
