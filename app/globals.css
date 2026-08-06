@@ -1608,3 +1608,33 @@ body.menu-open .site-header {
   from { translate: 14px 0; }
   to { translate: -14px 0; }
 }
+
+/* Preserve the portrait composition in the dimensional-color story image. */
+.story-image {
+  width: min(74vw, 960px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.story-image img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 48%;
+}
+
+.story-image::before,
+.story-image::after {
+  opacity: 0.48;
+}
+
+@media (max-width: 760px) {
+  .story-image {
+    width: 100%;
+  }
+
+  .story-image img {
+    aspect-ratio: 4 / 5;
+  }
+}
