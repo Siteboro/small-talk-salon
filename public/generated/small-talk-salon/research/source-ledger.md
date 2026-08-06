@@ -13,7 +13,7 @@ Verified: 2026-08-06
 ## Media provenance
 
 - All six site photos were collected from the Google Maps photo gallery for Small Talk Salon.
-- The header logo is the business's official Instagram profile image, cropped only to remove surrounding whitespace and the repeated phone number.
+- The header logo is the cleaner official mark supplied directly by the user; only the white background and screenshot border were removed.
 - No synthetic photos were used.
 - No stock photos were used.
 - Photos were resized and compressed locally for web delivery; content was not altered.
