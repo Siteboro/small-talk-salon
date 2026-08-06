@@ -1438,8 +1438,8 @@ body.menu-open .site-header {
   height: 58px;
   max-width: 142px;
   object-fit: contain;
-  mix-blend-mode: multiply;
-  filter: grayscale(1) contrast(1.2);
+  mix-blend-mode: normal;
+  filter: none;
   transform: translateZ(0);
 }
 
